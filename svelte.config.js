@@ -8,7 +8,7 @@ const config = {
   preprocess: preprocess(),
 
   kit: {
-    adapter: adapter({ external: ["sharp"] }),
+    adapter: adapter({ external: ["sharp/*"] }),
 
     // Override http methods in the Todo forms
     methodOverride: {
